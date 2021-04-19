@@ -20,6 +20,9 @@ p {
     --font-os:  'Oswald', sans-serif;
     --font-ram: 'Rambla', sans-serif;
 }
+.d-flex {
+    margin-top: 0%;
+}
 
 /* global classes */
 .font-staat{
@@ -121,6 +124,7 @@ p {
     height: 250px;
     border-radius: 60%;
     border-style:ridge;
+    border-width: 10px;
     margin: auto;
     background: url(./assets/profile\ image.jpg) no-repeat;
     background-size: 100%;
@@ -136,9 +140,28 @@ p {
         z-index:0;
     }
 }
-
+.HTML-CSS-JS-B {
+    margin: 10px 15px 15px 10px;
+}
+.vs-code {
+    margin: 5px 2px 15px ;
+}
+.git {
+    margin: 5px 5px;
+}
+.github {
+    margin: 5px 10px;
+}
 /* #site-main */
 /* Project cards */
+
 .container {
     background-color: rgb(51, 46, 43);
 }
+a.carousel-control-prev, a.carousel-control-next{
+    height: 26%;
+    top: 33%;
+    width: 86px;
+    
+    
+    }
