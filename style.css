@@ -1,4 +1,4 @@
-/* step two, set up up global CSS variables */
+ /* step two, set up up global CSS variables */
 @import url('https://fonts.googleapis.com/css?family=Oswald|Rambla|Staatliches&display=swap');
 
 body{
@@ -7,10 +7,16 @@ body{
 }
 
 p {
-    margin-right: 25px;
+    margin: 0px;
     font-size: 22px;
-    text-decoration:  overline;
+    text-decoration: none;
 }
+.lastname {
+    text-decoration: overline;
+    margin-right: 50px;
+    letter-spacing: 25px;
+}
+
 
 :root{
     --color-primary: #000000;
@@ -20,6 +26,7 @@ p {
     --font-os:  'Oswald', sans-serif;
     --font-ram: 'Rambla', sans-serif;
 }
+
 .d-flex {
     margin-top: 0%;
 }
@@ -100,7 +107,12 @@ p {
 
 /* site-main */
 
-
+.html {
+    margin-left: 0px;
+}
+.css {
+    /* margin: 50px 170px 150px 250px; */
+}
 .site-banner .banner-area{
    
     background:url(./assets/szabolcs-toth-CXkxaB5IkDg-unsplash.jpg);
@@ -153,7 +165,7 @@ p {
     margin: 5px 10px;
 }
 /* #site-main */
-/* Project cards */
+/* Projects */
 
 .container {
     background-color: rgb(51, 46, 43);
@@ -162,6 +174,86 @@ a.carousel-control-prev, a.carousel-control-next{
     height: 26%;
     top: 33%;
     width: 86px;
+     
+}
+
+.coke, .full-wrap, .air-asia {
+    border-radius: 15%;
+    border: solid 5px;
+    border-color: #303133;
     
+}
+
+.colored-section {
+    background-color: #ADD8E6;
+    padding: 20px 20px 10px 30px; 
+    text-align: center;
     
-    }
+}
+
+.social-icon {
+    margin: 20px 30px;
+    color: #f4eee8;
+  
+}
+
+.contact {
+color:chocolate;
+}
+.btn {
+    background-color: #325288;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: #f5cebe;
+  }
+
+  
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 375px) {
+   #top-section {
+    width: auto;
+}
+
+div#tbt > img {
+    transform: scale(.5);
+    display: flex;
+    flex-direction: row;
+}
+div.cola{
+    /* transform: scale(.5); */
+    display: flex;
+    flex-direction: column;
+
+}
+
+ 
+}
+/* @media (min-width: 376px) {
+   #top-section {
+    width: auto;
+}
+html{
+    width: 812px;
+}
+div#tbt > img {
+    transform: scale(.5);
+    display: flex;
+    flex-direction: row;
+}
+ 
+} */
+.container{
+    display: flex;
+    flex-direction: row;
+}
+div#tbt > img{
+   width: 50%;
+}
