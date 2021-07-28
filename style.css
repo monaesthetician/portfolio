@@ -1,4 +1,5 @@
- /* step two, set up up global CSS variables */
+ 
+ 
 @import url('https://fonts.googleapis.com/css?family=Oswald|Rambla|Staatliches&display=swap');
 
 body{
@@ -22,7 +23,7 @@ p {
     --color-primary: #000000;
     --color-secondary: #ffffff;
     --color-border: #ffffff34;
-    --font-staat: 'Staatliches', cursive;
+    --font-staat: 'Staatliches';
     --font-os:  'Oswald', sans-serif;
     --font-ram: 'Rambla', sans-serif;
 }
@@ -63,7 +64,7 @@ p {
 }
 
 /* #global classes */
- /* step four, add header CSS */
+ 
 #header{
     position: fixed;
     top: 0;
